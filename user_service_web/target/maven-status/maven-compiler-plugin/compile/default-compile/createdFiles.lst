@@ -1,0 +1,3 @@
+net\wanho\controller\BaseController.class
+net\wanho\interceptors\PermissionInterceptor.class
+net\wanho\controller\UserController.class

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/javaee"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-jsptaglibrary_2_1.xsd"
+        version="2.1">
+
+    <description>page 1.1 core library</description>
+    <display-name>page core</display-name>
+    <tlib-version>1.1</tlib-version>
+    <short-name>c</short-name>
+    <uri>http://java.sun.com/jsp/page/core</uri>
+    <tag>
+        <name>list</name>
+        <tag-class>net.wanho.tags.PageTag</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+
+</taglib>

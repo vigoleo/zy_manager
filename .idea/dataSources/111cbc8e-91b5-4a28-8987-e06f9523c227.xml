@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="zy_manager@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="zy_manager">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="crms"/>
+    <schema id="4" parent="1" name="dos_fy"/>
+    <schema id="5" parent="1" name="guns"/>
+    <schema id="6" parent="1" name="homework"/>
+    <schema id="7" parent="1" name="information_schema"/>
+    <schema id="8" parent="1" name="ishang"/>
+    <schema id="9" parent="1" name="java103"/>
+    <schema id="10" parent="1" name="mysql"/>
+    <schema id="11" parent="1" name="numberone-auth"/>
+    <schema id="12" parent="1" name="numberone_auth6"/>
+    <schema id="13" parent="1" name="numberone_auth6.2"/>
+    <schema id="14" parent="1" name="performance_schema"/>
+    <schema id="15" parent="1" name="sakila"/>
+    <schema id="16" parent="1" name="sys"/>
+    <schema id="17" parent="1" name="wanlicloud"/>
+    <schema id="18" parent="1" name="world"/>
+    <table id="19" parent="2" name="user"/>
+    <column id="20" parent="19" name="id">
+      <Position>1</Position>
+      <Comment>主键id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="21" parent="19" name="account">
+      <Position>2</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="22" parent="19" name="password">
+      <Position>3</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="23" parent="19" name="salt">
+      <Position>4</Position>
+      <Comment>md5密码盐</Comment>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="24" parent="19" name="name">
+      <Position>5</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="25" parent="19" name="birthday">
+      <Position>6</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="26" parent="19" name="sex">
+      <Position>7</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="27" parent="19" name="email">
+      <Position>8</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="28" parent="19" name="phone">
+      <Position>9</Position>
+      <DataType>varchar(45)|0</DataType>
+    </column>
+    <column id="29" parent="19" name="roleid">
+      <Position>10</Position>
+      <Comment>角色id</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="30" parent="19" name="deptid">
+      <Position>11</Position>
+      <Comment>部门id</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="31" parent="19" name="status">
+      <Position>12</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="32" parent="19" name="createtime">
+      <Position>13</Position>
+      <DataType>datetime|0</DataType>
+    </column>
+    <column id="33" parent="19" name="version">
+      <Position>14</Position>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="34" parent="19" name="avatar">
+      <Position>15</Position>
+      <Comment>头像</Comment>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="35" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
